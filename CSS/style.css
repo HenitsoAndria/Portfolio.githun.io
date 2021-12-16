@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 35px;
+    font-family: 'red';
+    background-color: black;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    background-color: rgb(54, 52, 52);
+    color: white;
+    opacity: 0.9;
+    font-size: 25px;
+}
+
+li {
+    display: flex;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+ul :hover {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 20px rgb(240, 3, 220);
+    border-radius: 10px;
+    font-family: 'fin';
+}
+
+header {
+    text-align: center;
+    background: url(../Media/vapsun.gif) no-repeat center center/cover;
+    background-size: cover;
+    height: 910px;
+    z-index: -1;
+    font-family: '';
+    font-size: 30px;
+}
+
+h1 {
+    font-family: 'bar';
+    color: rgb(251, 255, 0);
+    text-shadow: 15px 15px 5px black;
+}
+
+header p {
+    font-family: "zek";
+    font-size: 50px;
+    text-shadow: 1px 1px 1px 1px rgb(0, 0, 0);
+}
+
+main {
+    margin: 10px 10px
+}
+
+.about {
+    border-radius: 25px;
+    margin-top: 100px;
+    background: url(../Media/train.gif) no-repeat center center/cover;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 252, 252), 1px 1px 0 rgb(255, 255, 255);
+}
+
+.about legend {
+    font-size: 30px;
+}
+
+.me {
+    display: flex;
+}
+
+.me p {
+    margin: 0 50px;
+    font-size: 35px
+}
+
+.Parcours {
+    border: radius 25px;
+    background: url(../Media/raiboo.gif) no-repeat center center/cover;
+    background-size: cover;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.Parcours legend {
+    text-align: center;
+}
+
+.scol {
+    display: flex;
+    width: 100%;
+}
+
+.img {
+    width: 20%;
+    height: 250px;
+    border-radius: 15px;
+    padding: 0 50px;
+}
+
+.text {
+    width: 50%;
+}
+
+#nei {
+    margin-top: 100px;
+}
+
+.prof {
+    text-align: center;
+}
+
+.Inter {
+    background: url(../Media/store.gif)no-repeat center center/cover;
+    background-size: cover;
+    width: 100%;
+}
+
+.Lois {
+    text-align: center;
+}
+
+.Lois img {
+    width: 50%;
+    height: 60%;
+}
+
+.game {
+    display: flex;
+    width: 90%;
+}
+
+.gam img {
+    width: 90%;
+    height: 70%;
+    float: left;
+}
+
+.ga {
+    width: 100%;
+    float: right;
+}
+
+#c {
+    display: inline-flex;
+    text-align: center;
+}
+
+#c img {
+    width: 40%;
+    margin: 0 30px;
+}
